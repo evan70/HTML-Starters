@@ -5,7 +5,7 @@
 
 <p>Clone into the current folder with remove all unnecessary (one command):</p>
 
-<pre>git clone https://github.com/agragregra/ts .; rm -rf trunk .gitignore readme.md .git</pre>
+<pre>git clone https://github.com/evan70/ts .; rm -rf trunk .gitignore readme.md .git</pre>
 
 <ol>
   <li>Clone or <a href="https://github.com/agragregra/ts/archive/master.zip">Download</a> <strong>Tailwind Starter</strong> from GitHub</li>
