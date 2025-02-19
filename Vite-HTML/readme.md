@@ -10,10 +10,10 @@
 
 <p>Clone into the current folder with remove all unnecessary (one command):</p>
 
-<pre>git clone https://github.com/agragregra/vh .; rm -rf trunk .gitignore .git readme.md</pre>
+<pre>git clone https://github.com/evan70/HTML-Starters</pre>
 
 <ol>
-  <li>Clone or <a href="https://github.com/agragregra/Vite-HTML/archive/master.zip">Download</a> <strong>Vite HTML</strong> from GitHub</li>
+  <li>Clone or <a href="https://github.com/evan70/HTML-Starters/archive/refs/heads/main.zip">Download</a> <strong>Vite HTML</strong> from GitHub</li>
   <li>Install мodules: <strong>npm i</strong></li>
   <li>Run: <strong>npm run dev</strong></li>
 </ol>
