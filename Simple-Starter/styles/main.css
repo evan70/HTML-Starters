@@ -15,6 +15,7 @@
   border-radius: calc(var(--border-radius) / 2);
   padding: .4rem .9rem;
 }
+
 [data-mode].active {
   color: var(--color-accent);
   background-color: var(--color-accent);
@@ -44,9 +45,15 @@ blockquote {
   color: var(--heading-color);
   line-height: 1.2;
 }
-@media (min-width : 992px) {
-  .header {
-    margin-bottom: 10px;
-    font-size: 1.65rem;
-  }
+
+hr {
+  opacity: .1;
+}
+
+.toggler-light button::before {
+  content: '🔅';
+}
+
+.toggler-dark button::before {
+  content: '🌙';
 }

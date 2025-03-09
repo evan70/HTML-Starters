@@ -48,7 +48,8 @@ xxl - 1400px
 .justify-content-{start, end, center, between, around, evenly}
 .align-items-{start, end, center, baseline, stretch}
 .align-content-{start, end, center, between, around, stretch}
-.g-0
+.g-0, .gx-0, .gy-0
+.nowrap
 ```
 
 ### css mode classes (root):
@@ -67,4 +68,20 @@ xxl - 1400px
 ### switcher active item:
 ```
 [data-mode].active {}
+```
+
+### theme toggler:
+```
+<div class="toggler"><button></button></div>
+```
+
+### toggler active item:
+```
+(recommended):
+.light .toggler {}
+.dark .toggler {}
+
+(option):
+.toggler.toggler-light {}
+.toggler.toggler-dark {}
 ```

@@ -36,12 +36,6 @@
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
 
-@media (max-width: 575.98px) {
-  .container {
-    padding: 0 calc(var(--gutter) * .75);
-  }
-}
-
 .order-first { order: -1!important; }
 .order-0 { order: 0!important; }
 .order-1 { order: 1!important; }
@@ -59,6 +53,9 @@
 .d-flex { display: flex!important; }
 .d-inline-flex { display: inline-flex!important; }
 .d-none, [hidden] { display: none!important; }
+.nowrap { white-space: nowrap; }
+.gx-0 { column-gap: 0!important; }
+.gy-0 { row-gap: 0!important; }
 .g-0 { gap: 0!important; }
 
 @media (min-width: 576px) {
