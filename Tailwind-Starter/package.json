@@ -10,8 +10,8 @@
   "author": "evan70",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/cli": "^4.0.6",
+    "@tailwindcss/cli": "^4.0.8",
     "concurrently": "^9.1.2",
-    "tailwindcss": "^4.0.6"
+    "tailwindcss": "^4.0.8"
   }
 }

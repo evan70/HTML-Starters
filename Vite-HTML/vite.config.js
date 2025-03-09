@@ -1,5 +1,6 @@
 import SassGlob from 'vite-plugin-sass-glob-import';
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite';
 import { sync } from 'glob'
 
 const noAttr = () => {
@@ -14,6 +15,7 @@ export default defineConfig({
   plugins: [
     SassGlob(),
     noAttr(),
+    tailwindcss()
   ],
   build: {
     rollupOptions: {
@@ -22,7 +24,7 @@ export default defineConfig({
         assetFileNames: (assetInfo) => {
           let extType = assetInfo.name
           if (/css/.test(extType)) { extType = 'assets/css' }
-          return assetInfo.originalFileName ?? `${extType}/[name][extname]`
+          return assetInfo.originalFileNames ?? `${extType}/[name][extname]`
         },
         chunkFileNames: 'assets/js/[name].js',
         entryFileNames: 'assets/js/[name].js',
